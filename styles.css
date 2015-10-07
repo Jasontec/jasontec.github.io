@@ -1,8 +1,73 @@
 h1 {
-  background-color: ;
+  background-color:;
   text-emphasis-color: ;
 }
-li {
+
+nav li {
+  background-color: red;
   display: inline-block;
   margin-left: 100px;
+  text-decoration-style: none;
+}
+
+#sidebar {
+  background: #151718;
+  width: 200px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  left: -200px;
+  top: 0px;
+  transition: left 0.3s linear
+}
+
+#sidebar.visible {
+  left: 0px;
+  transition: left 0.3s linear;
+}
+
+div ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+div li {
+  list-style: none;
+}
+
+div li a {
+  background: #1C1E1F;
+  color: #ccc;
+  border-bottom: 1 px solid #111;
+  display: block;
+  width: 180px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#sidebar-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20 px;
+  position: absolute;
+  top: 0px;
+  right: -50px;
+}
+
+#sidebar-btn span {
+  height: 1px;
+  background: #111;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#sidebar-btn span:nth-child(2){
+  width:75%;
+}
+
+#sidebar-btn span:nth-child(3){
+  width:50%;
 }
