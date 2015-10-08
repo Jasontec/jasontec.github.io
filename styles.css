@@ -1,13 +1,35 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+}
+
 h1 {
   background-color:;
   text-emphasis-color: ;
 }
 
-nav li {
+nav ul {
   background-color: red;
+  color: white;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+nav li {
   display: inline-block;
-  margin-left: 100px;
-  text-decoration-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: yellow;
 }
 
 #sidebar {
