@@ -32,6 +32,20 @@ nav li a:hover {
   color: yellow;
 }
 
+.col-1-3 {
+  float: left;
+  width: 33.33%;
+}
+.col-2-3 {
+  float: right;
+  width: 66.66%;
+}
+
+section a {
+  color: red;
+  display: block;
+}
+
 #sidebar {
   background: #151718;
   width: 200px;
