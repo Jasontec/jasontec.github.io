@@ -1,3 +1,58 @@
+.container {
+	width: 1280px; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+
+}
+
+.six {
+	width: 100%; /* This div spans six columns (the entire row)*/
+	display: block; /*Display: block changes the orientation of elements to horizontal rather than vertical (it makes each column appear to the right of the previous column)*/;
+}
+.five {
+	width: 80%; /* This div spans five columns */
+	display: block;
+	float:left;
+	margin-left: 2%;
+}
+.four {
+	width: 66%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.three {
+	width: 49%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.two {
+	width: 32%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+	}
+.one {
+	width: 15%;
+	display: block;
+	float:left;
+	margin-left: 2%;
+
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+
 body {
   font-family: Tahoma, Geneva, sans-serif;
   margin: 0;
@@ -36,6 +91,7 @@ nav li a:hover {
   float: left;
   width: 33.33%;
 }
+
 .col-2-3 {
   float: right;
   width: 66.66%;
